@@ -1,0 +1,103 @@
+body{
+    font: 70% sans-serif;
+}
+h1{
+    font-size: 12pt;
+}
+.anac{
+    color: #009900;
+    font-weight: bold;
+}
+h3{
+    font-size: 10pt;
+}
+a{
+    color: blue;
+}
+a:hover{
+    color: #ff3300
+}
+li{
+    margin-top: 5px;
+}
+#top{
+    height: auto;
+    margin-bottom: 15px;
+}
+#middle{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+#foot{
+    margin-top: 15px;
+}
+table{
+    font-size: 10pt;
+}
+td{
+    padding: 10px;
+}
+thead{
+    font-weight: bold;
+}
+.info{
+    font-style: italic;
+}
+.grplek{
+    font-size: 10pt;
+    margin: 0px;
+}
+.ui-timepicker-div .ui-widget-header{ margin-bottom: 8px; }
+.ui-timepicker-div dl{ text-align: left; }
+.ui-timepicker-div dl dt{ height: 25px; }
+.ui-timepicker-div dl dd{ margin: -25px 0 10px 65px; }
+.ui-timepicker-div td { font-size: 90%; }
+select{
+    margin: 5px;
+}
+hr{
+    height: 1px;
+    border: 0;
+    color: #333;
+    background-color: #333;
+    width: 100%;
+}
+.notice{
+    color: #009900;
+}
+.hlt{
+    color: #f6bc3e;
+}
+.error{
+    color: red;
+}
+table.przed {
+	border-width: 0px;
+	border-spacing: 0px;
+	border-style: solid;
+	border-color: green;
+	border-collapse: collapse;
+}
+table.przed th {
+	border-width: 1px;
+	padding: 2px;
+	border-style: solid;
+	border-color: black;
+}
+table.przed td {
+	border-width: 1px;
+	padding: 2px;
+	border-style: solid;
+	border-color: black;
+}
+table.main {
+    border-width: 0px;
+    width: 100%;
+    max-width: 100%;
+}
+
+tr.zestdzien{
+    background: #ffff99;
+    font-weight: bold;
+    text-align: center;
+}

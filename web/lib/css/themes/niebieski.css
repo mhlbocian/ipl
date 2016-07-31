@@ -1,0 +1,41 @@
+body{
+    background-color: #2B6FB6;
+}
+.a_odd{
+    background-color: #2B6FB6;
+    color: white;
+}
+a:hover{
+    background-color: lightgray;
+}
+a.anodd{
+    color: white;
+}
+a.a_odd:link{
+    color: white;
+}
+a.anodd:active{
+    color: white;
+}
+a.anodd:visited{
+    color: white;
+}
+.a_light_menu{
+    background-color: #e5e5e5;
+}
+.a_even{
+    background-color: lightgrey;
+}
+.app_info{
+    background-color: #2B6FB6;
+    text-shadow: lightgray 1px 1px 3px;
+    color: white;
+}
+.app_ver{
+    background-color: lightgrey;
+    text-align: right;
+}
+button{
+    background-color: #2B6FB6;
+    color: white;
+}

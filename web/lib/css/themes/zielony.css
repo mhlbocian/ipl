@@ -1,0 +1,38 @@
+body{
+    background-color: #5d8a5f;
+}
+div#container{
+    box-shadow: black 0px 0px 6px;
+}
+.a_odd{
+    background-color: #5d8a5f;
+    color: white;
+}
+
+a.anodd{
+}
+a.a_odd:link{
+}
+a.anodd:active{
+}
+a.anodd:visited{
+}
+.a_light_menu{
+    background-color: #cfeed0;
+}
+.a_even{
+    background-color: #9bb89c;
+}
+.app_info{
+    background-color: #668767;
+    text-shadow: black 1px 1px 3px;
+    color: white;
+}
+.app_ver{
+    background-color: #9bb89c;
+    text-align: right;
+}
+button{
+    background-color: #668767;
+    color: white;
+}

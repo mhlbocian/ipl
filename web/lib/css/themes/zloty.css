@@ -1,0 +1,26 @@
+body{
+    background-color: #ffc000;
+}
+div#container{
+    box-shadow: black 0px 0px 6px;
+}
+.a_odd{
+    background-color: #f1db48;
+}
+.a_light_menu{
+    background-color: #f1f1ae;
+}
+.a_even{
+    background-color: #f7f7a9;
+}
+.app_info{
+    background-color: #f1db48;
+    text-shadow: gray 1px 1px 3px;
+}
+.app_ver{
+    background-color: #f1db48;
+    text-align: right;
+}
+button{
+    background-color: gold;
+}
