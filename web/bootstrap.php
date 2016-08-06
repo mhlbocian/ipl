@@ -1,11 +1,14 @@
 <?php
 
-require_once "constants.php";
+require_once "environment.php";
 
-$coreCat = APLDIR . DS . "core" . DS;
+loadIplLibraries([
+    "Ipl.Core.Isf",
+    "Ipl.Core.Isf2",
+    "Ipl.Core.Install",
+    "Ipl.Core.Log",
+    "Ipl.Core.System",
+    "Ipl.Core.Tools"
+]);
 
-require_once $coreCat . 'log.php';
-require_once $coreCat . 'isf.php';
-require_once $coreCat . 'isf2.php';
-require_once $coreCat . 'system.php';
-require_once $coreCat . 'core.php';
+date_default_timezone_set(TIMEZN);

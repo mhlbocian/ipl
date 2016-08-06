@@ -2,8 +2,6 @@
 
 require_once "bootstrap.php";
 
-date_default_timezone_set(TIMEZN);
-
 if (!defined('KOHANA_START_TIME')) {
     define('KOHANA_START_TIME', microtime(TRUE));
 }

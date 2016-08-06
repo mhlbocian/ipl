@@ -22,3 +22,10 @@ $appconstants = [
 foreach ($appconstants as $name => $value) {
     define($name, $value);
 }
+
+function loadIplLibraries(array $libraries) {
+    $libDir = APLDIR . DS . "lib";
+    foreach ($libraries as $library) {
+        require_once $libDir . DS . $library . ".php";
+    }
+}

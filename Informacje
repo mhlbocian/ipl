@@ -1,11 +1,13 @@
-Dziękujemy za zainteresowanie projektem Internetowy Plan Lekcji 2.0.0!
+INTERNETOWY PLAN LEKCJI
+=======================
 
 W trosce o bezpieczeństwo danych, prosimy w konfiguracji serwera www
 o ustawienie katalogu web, jako domyślnego katalogu aplikacji.
 
-=== USTAWIENIA EKSPERYMENTALNE IPL ===
+USTAWIENIA EKSPERYMENTALNE IPL
+==============================
 
- - Logowanie LDAP
+* Logowanie LDAP
     Umożliwia autoryzację użytkowników na podstawie danych w katalogu LDAP.
 
     Oprogramowanie: OpenDS/OpenDJ (zalecane), ApacheDS, OpenLDAP uruchomione
@@ -23,6 +25,6 @@ o ustawienie katalogu web, jako domyślnego katalogu aplikacji.
         basedn = "" ; ścieżka LDAP katalogu np "ou=ipl,o=zso"
         
 
-=== AUTORZY ===
-
+AUTORZY
+=======
     Michał Bocian <mhl.bocian@gmail.com>
