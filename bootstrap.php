@@ -24,6 +24,7 @@ set_error_handler(function($errNo, $errStr) {
     }
 
     switch ($errNo) {
+        case E_ALL:
         case E_ERROR:
         case E_CORE_ERROR:
         case E_USER_ERROR:
@@ -51,6 +52,12 @@ spl_autoload_register(function($className) {
     switch ($nameParts[0]) {
         case "Ipl":
             $path = SYSDIR;
+            break;
+        case "App":
+            if ($nameParts[1] == "Controlers") {
+                $path = APPDIR . DS . "controller";
+                $file = str_replace("Controler_", "", $file);
+            }
             break;
         default:
             $path = MODDIR;

@@ -38,15 +38,15 @@ class Url {
     public static function SetPath(string $path) {
         self::$path = $path;
     }
-
+    
+    public static function Factory() {
+        return new Url();
+    }
+    
     /* dynamic methods */
 
     public function __construct() {
         return $this;
-    }
-
-    public static function Factory() {
-        return new Url();
     }
 
     public function File(string $file) {
